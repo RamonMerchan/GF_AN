@@ -1,0 +1,28 @@
+0,   100.00,  33, 0, 0, 60.00     / PSS(R)E-33.0 RAW FILE
+TWO-BUS TEST SYSTEM FOR REGFM_A1 GRID-FORMING INVERTER
+ANDES / PSSE COMPATIBLE TEST CASE (BASE: 100 MVA, 60 HZ)
+     1,'BUS 1       ', 230.0000,3,   1,   1,   1,1.00000,   0.0000, 1
+     2,'BUS 2       ', 230.0000,2,   1,   1,   1,1.02000,   0.0000, 1
+ 0 /End of Bus data, Begin Load data
+ 0 /End of Load data, Begin Fixed shunt data
+ 0 /End of Fixed shunt data, Begin Generator data
+     1,'1 ',     0.000,     0.000,   999.000,  -999.000,1.00000,     0,   100.000, 0.00000E+0, 5.00000E-2, 0.00000E+0, 0.00000E+0,1.00000,1,  100.0,   999.000,  -999.000,   1,1.0000
+     2,'1 ',    60.000,     0.000,   120.000,  -120.000,1.02000,     0,   100.000, 0.00000E+0, 1.50000E-1, 0.00000E+0, 0.00000E+0,1.00000,1,  100.0,   100.000,     0.000,   1,1.0000
+ 0 /End of Generator data, Begin Branch data
+     1,      2,'1 ', 1.00000E-2, 1.00000E-1,   0.00000,  200.00,  200.00,  200.00,  0.00000,  0.00000,  0.00000,  0.00000,1,1,   0.00,   1,1.0000
+ 0 /End of Branch data, Begin Transformer data
+ 0 /End of Transformer data, Begin Area data
+ 0 /End of Area data, Begin Two-terminal DC data
+ 0 /End of Two-terminal DC data, Begin VSC DC line data
+ 0 /End of VSC DC line data, Begin Impedance correction data
+ 0 /End of Impedance correction data, Begin Multi-terminal DC data
+ 0 /End of Multi-terminal DC data, Begin Multi-section line data
+ 0 /End of Multi-section line data, Begin Zone data
+ 0 /End of Zone data, Begin Inter-area transfer data
+ 0 /End of Inter-area transfer data, Begin Owner data
+ 0 /End of Owner data, Begin FACTS device data
+ 0 /End of FACTS device data, Begin Switched shunt data
+ 0 /End of Switched shunt data, Begin GNE data
+ 0 /End of GNE data, Begin Induction machine data
+ 0 /End of Induction machine data
+Q
