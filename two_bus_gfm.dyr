@@ -1,0 +1,11 @@
+// PSS/E DYNAMICS DATA FILE (.DYR) FOR TWO-BUS GFM TEST CASE
+// BUS 1: SLACK GENERATOR (INFINITE BUS)
+1 'GENCLS' '1 ' 999.0 0.0 /
+
+// BUS 2: REGFMA1_AN GRID-FORMING INVERTER (ANDES IMPLEMENTATION OF WECC/PNNL REGFM_A1)
+// In ANDES, the model is named REGFMA1_AN to distinguish it from the native PSS/E 'regfma1' model.
+// Format: IBUS 'REGFMA1_AN' ID mp mq kpv kiv Emax Emin Pmax Pmin kppmax kipmax Qmax Qmin kpqmax kiqmax TPf TQf TVf fn VFlag QVFlag ImaxF XL
+2 'REGFMA1_AN' '1 ' 0.02 0.05 0.0 5.86 1.15 0.0 1.0 0.0 0.01 0.1 1.2 -1.2 3.0 20.0 0.01 0.01 0.01 60.0 1 0 1.4 0.15 /
+
+// Native PSS/E standard call (if running inside Siemens PSS/E >= 36.1):
+// 2 'REGFMA1' '1 ' 0.02 0.05 0.0 5.86 1.15 0.0 1.0 0.0 0.01 0.1 1.2 -1.2 3.0 20.0 0.01 0.01 0.01 60.0 1 0 1.4 0.15 /
